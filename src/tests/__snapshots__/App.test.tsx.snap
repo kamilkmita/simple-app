@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App proper render 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
+>
+  <h1
+    className="sc-bdvvaa"
+  >
+    Premier league clubs
+  </h1>
+</div>
+`;
