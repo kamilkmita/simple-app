@@ -9,5 +9,6 @@ exports[`App proper render 1`] = `
   >
     Premier league clubs
   </h1>
+  ItemListMockedComponent
 </div>
 `;
