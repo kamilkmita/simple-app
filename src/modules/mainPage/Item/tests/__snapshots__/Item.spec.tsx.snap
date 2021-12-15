@@ -188,7 +188,7 @@ exports[`Item with click on Item 1`] = `
               enter={true}
               exit={true}
               in={true}
-              key=".$cvr8e7"
+              key=".$vpuusu"
               mountOnEnter={true}
               nodeRef={
                 Object {
@@ -334,7 +334,7 @@ exports[`Item with click on Item 1`] = `
                     </div>,
                   }
                 }
-                key="cvr8e7"
+                key="vpuusu"
                 onDismiss={[Function]}
                 placement="top-right"
                 transitionDuration={220}
