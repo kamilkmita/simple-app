@@ -7,6 +7,15 @@ import * as S from "../styles";
 
 Enzyme.configure({ adapter: new Adapter() });
 
+const addToast = jest.fn();
+
+const useToasts = () => ({ addToast });
+
+jest.mock('react-toast-notifications', () => ({
+  ...jest.requireActual('react-toast-notifications'),
+  useToasts
+}));
+
 const defaultProps: ItemProps = {
   id: "1",
   name: "item1Name",
@@ -47,6 +56,6 @@ describe("Item", () => {
 
     component.find(S.Item).simulate("click");
 
-    expect(EnzymeToJson(component)).toMatchSnapshot();
+    expect(addToast).toBeCalledTimes(1);
   });
 });
